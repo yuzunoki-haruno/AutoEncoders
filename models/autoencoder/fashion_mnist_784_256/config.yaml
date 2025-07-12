@@ -1,0 +1,11 @@
+dataset_path: ../../dataset/FashionMNIST/
+width: 28
+height: 28
+channel: 1
+embedding_size: 256
+max_epochs: 100
+batch_size: 64
+num_workers: 8
+device: cuda
+output_dir_path: ./fashion_mnist_784_256
+model_filename: fashion_mnist_784_256.pth
