@@ -1,0 +1,11 @@
+dataset_path: ../../dataset/MNIST/
+width: 28
+height: 28
+channel: 1
+embedding_size: 128
+max_epochs: 100
+batch_size: 64
+num_workers: 8
+device: cuda
+output_dir_path: ./mnist_784_128
+model_filename: mnist_784_128.pth
