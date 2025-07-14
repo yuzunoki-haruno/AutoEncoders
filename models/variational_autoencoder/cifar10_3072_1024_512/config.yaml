@@ -1,0 +1,12 @@
+dataset_path: ../../dataset/CIFAR10/
+width: 32
+height: 32
+channel: 3
+embedding_size: 1024
+latent_channel: 512
+max_epochs: 100
+batch_size: 64
+num_workers: 8
+device: cuda
+output_dir_path: ./cifar10_3072_1024_512
+model_filename: cifar10_3072_1024_512.pth
