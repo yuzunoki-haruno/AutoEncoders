@@ -45,7 +45,7 @@ def main() -> None:
 def setup_preprocess(channel: int, image_size: Tuple[int, int]) -> List[Any]:
     if channel == 3:  # for RGB image
         preprocess = [
-            # transforms.Resize(image_size),
+            transforms.Resize(image_size),
             transforms.ToTensor(),
             torch.nn.Flatten(0),
         ]
