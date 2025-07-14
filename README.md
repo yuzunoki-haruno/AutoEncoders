@@ -30,25 +30,31 @@ $ python run_<MODEL_NAME>.py --mode test --config_file <CONFIG_FILE>.yaml
 
 ## Documents
 
+- [AutoEncoder](docs/autoencoder.md)
+- [Variational AutoEncoder](docs/variational_autoencoder.md)
+
 ## Results
 
 ### [MNIST](https://docs.pytorch.org/vision/stable/generated/torchvision.datasets.FashionMNIST.html)
 
 | Model name         | MAE     | SSIM    | PSNR     |
 | ------------------ |-------- | ------- | -------- |
-|  AutoEncoder       | 0.01243 | 0.97430 | 28.90812 |
+|  AutoEncoder (AE)  | 0.01243 | 0.97430 | 28.90812 |
+|  Variational AE    | 0.03769 | 0.86650 | 19.69707 |
 
 ### [FashionMNIST](https://docs.pytorch.org/vision/stable/generated/torchvision.datasets.FashionMNIST.html)
 
 | Model name         | MAE     | SSIM    | PSNR     |
 | ------------------ |-------- | ------- | -------- |
-|  AutoEncoder       | 0.03101 | 0.90342 | 25.99945 |
+|  AutoEncoder (AE)  | 0.03101 | 0.90342 | 25.99945 |
+|  Variational AE    | 0.06388 | 0.69344 | 18.89066 |
 
 ### [CIFAR10](https://docs.pytorch.org/vision/main/generated/torchvision.datasets.CIFAR10.html)
 
 | Model name         | MAE     | SSIM    | PSNR     |
 | ------------------ |-------- | ------- | -------- |
-|  AutoEncoder       | 0.02690 | 0.93575 | 29.36889 |
+|  AutoEncoder (AE)  | 0.02690 | 0.93575 | 29.36889 |
+|  Variational AE    | 0.08997 | 0.08997 | 18.77262 |
 
 ## License
 
