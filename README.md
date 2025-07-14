@@ -36,19 +36,19 @@ $ python run_<MODEL_NAME>.py --mode test --config_file <CONFIG_FILE>.yaml
 
 | Model name         | MAE     | SSIM    | PSNR     |
 | ------------------ |-------- | ------- | -------- |
-|  AutoEncoder       | 0.01276 | 0.97470 | 28.19348 |
+|  AutoEncoder       | 0.01243 | 0.97430 | 28.90812 |
 
 ### [FashionMNIST](https://docs.pytorch.org/vision/stable/generated/torchvision.datasets.FashionMNIST.html)
 
 | Model name         | MAE     | SSIM    | PSNR     |
 | ------------------ |-------- | ------- | -------- |
-|  AutoEncoder       | 0.03296 | 0.89505 | 25.16095 |
+|  AutoEncoder       | 0.03101 | 0.90342 | 25.99945 |
 
 ### [CIFAR10](https://docs.pytorch.org/vision/main/generated/torchvision.datasets.CIFAR10.html)
 
 | Model name         | MAE     | SSIM    | PSNR     |
 | ------------------ |-------- | ------- | -------- |
-|  AutoEncoder       | 0.07820 | 0.58121 | 20.04579 |
+|  AutoEncoder       | 0.02690 | 0.93575 | 29.36889 |
 
 ## License
 
